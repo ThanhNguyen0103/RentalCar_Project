@@ -1,0 +1,200 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Toyota Camry SE 350",
+      "img": "./img/cars/car-01.jpg",
+      "address": " Quận 7 , Hồ Chí Minh",
+      "price": "400$",
+      "seller": "./img/profiles/avatar-01.jpg",
+      "category": "Toyota",
+      "brand": "./img/icons/car-icon-01.svg",
+      "type": "Convertible",
+      "imgDetails": [
+        "./img/cars/slider-thum-01.jpg",
+        "./img/cars/slider-thum-02.jpg",
+        "./img/cars/slider-thum-03.jpg",
+        "./img/cars/slider-thum-04.jpg",
+        "./img/cars/slider-thum-05.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "capacity": "1-6",
+      "type": "Wagon",
+      "imgDetails": [
+        "./img/cars/slider-thum-01.jpg",
+        "./img/cars/slider-thum-02.jpg",
+        "./img/cars/slider-thum-03.jpg",
+        "./img/cars/slider-thum-04.jpg",
+        "./img/cars/slider-thum-05.jpg"
+      ],
+      "name": "Audi A3 2019 new",
+      "img": "./img/cars/car-02.jpg",
+      "address": " Quận 3 , Hồ Chí Minh",
+      "price": "45$",
+      "seller": "./img/profiles/avatar-02.jpg",
+      "category": "Audi",
+      "brand": "./img/icons/car-icon-02.svg"
+    },
+    {
+      "id": 3,
+      "capacity": "1-6",
+      "type": "Convertible",
+      "imgDetails": [
+        "./img/cars/slider-thum-01.jpg",
+        "./img/cars/slider-thum-02.jpg",
+        "./img/cars/slider-thum-03.jpg",
+        "./img/cars/slider-thum-04.jpg",
+        "./img/cars/slider-thum-05.jpg"
+      ],
+      "name": "Acura Sport Version",
+      "img": "./img/cars/car-03.jpg",
+      "address": " Quận 7 , Hồ Chí Minh",
+      "price": "64$",
+      "seller": "./img/profiles/avatar-03.jpg",
+      "category": "Acura",
+      "brand": "./img/icons/car-icon-03.svg"
+    },
+    {
+      "id": 4,
+      "capacity": "1-6",
+      "type": "Convertible",
+      "imgDetails": [
+        "./img/cars/slider-thum-01.jpg",
+        "./img/cars/slider-thum-02.jpg",
+        "./img/cars/slider-thum-03.jpg",
+        "./img/cars/slider-thum-04.jpg",
+        "./img/cars/slider-thum-05.jpg"
+      ],
+      "name": "Acura Sport Version",
+      "img": "./img/cars/car-04.jpg",
+      "address": " Quận 7 , Hồ Chí Minh",
+      "price": "41$",
+      "seller": "./img/profiles/avatar-04.jpg",
+      "category": "Acura",
+      "brand": "./img/icons/car-icon-04.svg"
+    },
+    {
+      "id": 5,
+      "capacity": "1-6",
+      "type": "Convertible",
+      "imgDetails": [
+        "./img/cars/slider-thum-01.jpg",
+        "./img/cars/slider-thum-02.jpg",
+        "./img/cars/slider-thum-03.jpg",
+        "./img/cars/slider-thum-04.jpg",
+        "./img/cars/slider-thum-05.jpg"
+      ],
+      "name": "Toyota Tacoma 4WD",
+      "img": "./img/cars/car-05.jpg",
+      "address": " Quận 2 , Hồ Chí Minh",
+      "price": "120$",
+      "seller": "./img/profiles/avatar-05.jpg",
+      "category": "Toyota",
+      "brand": "./img/icons/car-icon-05.svg"
+    },
+    {
+      "id": 6,
+      "capacity": "2-6",
+      "type": "Convertible",
+      "imgDetails": [
+        "./img/cars/slider-thum-01.jpg",
+        "./img/cars/slider-thum-02.jpg",
+        "./img/cars/slider-thum-03.jpg",
+        "./img/cars/slider-thum-04.jpg",
+        "./img/cars/slider-thum-05.jpg"
+      ],
+      "name": "2018 Chevrolet Camaro",
+      "img": "./img/cars/car-06.jpg",
+      "address": " Quận 1 , Hồ Chí Minh",
+      "price": "70$",
+      "seller": "./img/profiles/avatar-06.jpg",
+      "category": "Chevrolet",
+      "brand": "./img/icons/car-icon-06.svg"
+    },
+    {
+      "id": 7,
+      "capacity": "1-6",
+      "type": "Convertible",
+      "imgDetails": [
+        "./img/cars/slider-thum-01.jpg",
+        "./img/cars/slider-thum-02.jpg",
+        "./img/cars/slider-thum-03.jpg",
+        "./img/cars/slider-thum-04.jpg",
+        "./img/cars/slider-thum-05.jpg"
+      ],
+      "name": "Ferrari 458 MM Speciale",
+      "img": "./img/cars/car-04.jpg",
+      "address": " Quận 2 , Hồ Chí Minh",
+      "price": "50$",
+      "seller": "./img/profiles/avatar-07.jpg",
+      "category": "Ferrari",
+      "brand": "./img/icons/car-icon-07.svg"
+    },
+    {
+      "id": 8,
+      "capacity": "3-6",
+      "type": "Convertible",
+      "imgDetails": [
+        "./img/cars/slider-thum-01.jpg",
+        "./img/cars/slider-thum-02.jpg",
+        "./img/cars/slider-thum-03.jpg",
+        "./img/cars/slider-thum-04.jpg",
+        "./img/cars/slider-thum-05.jpg"
+      ],
+      "name": "Chevrolet Pick Truck 3.5L",
+      "img": "./img/cars/car-07.jpg",
+      "address": " Quận 5 , Hồ Chí Minh",
+      "price": "90$",
+      "seller": "./img/profiles/avatar-08.jpg",
+      "category": "Chevrolet",
+      "brand": "./img/icons/car-icon-08.svg"
+    },
+    {
+      "id": 9,
+      "capacity": "6-10",
+      "type": "Convertible",
+      "imgDetails": [
+        "./img/cars/slider-thum-01.jpg",
+        "./img/cars/slider-thum-02.jpg",
+        "./img/cars/slider-thum-03.jpg",
+        "./img/cars/slider-thum-04.jpg",
+        "./img/cars/slider-thum-05.jpg"
+      ],
+      "name": "Acura RDX FWD",
+      "img": "./img/cars/car-09.jpg",
+      "address": " Quận 4 , Hồ Chí Minh",
+      "price": "80$",
+      "seller": "./img/profiles/avatar-09.jpg",
+      "category": "Acura",
+      "brand": "./img/icons/car-icon-09.svg"
+    }
+  ],
+  "da": [
+    {
+      "id": 1,
+      "name": "Toyota Camry SE 350",
+      "img": "./img/cars/car-01.jpg",
+      "address": " Quận 7 , Hồ Chí Minh",
+      "price": "400$",
+      "seller": "./img/profiles/avatar-01.jpg",
+      "category": "Toyota",
+      "brand": "./img/icons/car-icon-01.svg",
+      "type": "Convertible",
+      "imgDetails": [
+        "./img/cars/slider-thum-01.jpg",
+        "./img/cars/slider-thum-02.jpg",
+        "./img/cars/slider-thum-03.jpg",
+        "./img/cars/slider-thum-04.jpg",
+        "./img/cars/slider-thum-05.jpg"
+      ],
+      "pickup_location": "",
+      "dropoff_location": "",
+      "pickup_date": "",
+      "pickup_time": "",
+      "dropoff_date": "",
+      "dropoff_time": ""
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./c.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha3/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha3/js/bootstrap.min.js"></script>
+    <script src="./fontawesome-free-6.4.0-web/js/fontawesome.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="order-confirmation">
+                <div class="row p-4">
+                    <div class="confirm-header">
+                        <h5>Order Confirmation</h5>
+                        <h6>
+                            Order Total :
+                            <span class="total-price"></span>
+                        </h6>
+                    </div>
+                    <div class="col-6 confirm-car">
+                       
+                    </div>
+                    <div class="col-6 confirm-payment">
+                        <div class="confirm-title">
+                            <h6>
+                                Payment details
+                            </h6>
+                        </div>
+                        <ul>
+                            <li>
+                                <img src="./img/visa.svg" alt="">
+                                <div>
+                                    <span>Visa card ending in 1245</span>
+                                </div>
+                            </li>
+                    </div>
+                    <div class="col-6 confirm-pickup-location">
+                        
+                    </div>
+                    <div class="col-6 confirm-dropoff-location">
+                        
+                    </div>
+                  
+                </div>
+                <div class="btn-confirm">
+                    <button type="button" class="order-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Place Order
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <span>
+                                        <i class="fa-solid fa-check-double"></i>
+                                    </span>
+                                </div>
+                                <div class="modal-body">
+                                    <h4>Order Confirmed
+                                    </h4>
+                                    <p> You Payment has been successfully
+                                        done. Trasaction id :
+                                        <span>#5064164454</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script type="module" src="./confirmProduct.js"></script>
+
+</body>
+
+</html>

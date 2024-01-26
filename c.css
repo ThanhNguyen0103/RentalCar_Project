@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+
+}
+.main {
+    padding: 80px;
+    background-color: #fcfbfb;
+}
+.order-confirmation{
+    max-width: 900px;
+    margin: auto;
+    background-color: #ffff;
+   
+    border-radius : 6px;
+}
+.confirm-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+   
+}
+.confirm-header h5 {
+    font-weight: 700;
+    font-size: 20px;
+}
+.confirm-header span {
+    font-weight: 700;
+}
+.order-confirmation .confirm-title {
+    border-bottom: 1px solid #DBDBDB;
+    margin: 0 0 20px;
+}
+
+.confirm-car,
+.confirm-payment, 
+.confirm-location {
+    margin-bottom: 20px;
+  
+}
+.order-confirmation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.order-confirmation ul li {
+    color: #737373;
+}
+
+.confirm-car ul li {
+    display: flex;
+}
+.confirm-car ul li h6 {
+    color: #1FBC2F;  
+    font-size: 18px;
+    margin-bottom: 0;
+
+}
+.confirm-car ul li span {
+     color :#FF0000;
+     font-weight: 600;
+}
+.confirm-car ul li img,
+.confirm-payment ul li img {
+    width: 90px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+.btn-confirm{
+    margin-top: 20px;
+}
+.order-btn {
+    float: right;
+    background-color: #FFA633;
+    color: #ffff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border:1px solid #FFA633;
+}
+.order-btn:hover {
+    border:1px solid #FFA633;
+    background-color: #ffff;
+    color: #FFA633;
+}
+
+.btn-confirm .modal-header {
+    padding: 26px 0 0 0;
+    border-bottom: 0;
+}
+.btn-confirm .modal-header span {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #1FBC2F;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+   
+}
+.btn-confirm .modal-body {
+    padding-top: 0;
+    text-align: center;
+}
+.btn-confirm .modal-dialog-centered {
+    justify-content: center;
+}
+.btn-confirm .modal-content{
+    max-width: 400px;
+    padding: 0 10px;
+}
+.btn-confirm .modal-body h4 {
+    color: #1FBC2F;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.btn-confirm .modal-body p {
+    color: #737373;
+}
+.btn-confirm .modal-body p span {
+    color: #201F1D;
+    font-weight: 700;
+}

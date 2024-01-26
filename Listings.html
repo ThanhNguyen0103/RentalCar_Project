@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="listings.css">
+    <link rel="stylesheet" href="./reponsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha3/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha3/js/bootstrap.min.js"></script>
+    <script src="./fontawesome-free-6.4.0-web/js/fontawesome.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+           
+
+        </header>
+        <div class="breadrcumb">
+            <div class="container">
+                <div class="row">
+                    <div class="breadcrumb-bar">
+                        <h2 class="breadcrumb-bar-title">Car Listings</h2>
+                        <ul class="nav">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Listings</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Car Listings</a>
+                            </li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-sort">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-lg-4">
+                        <div class="count-search">
+                            <p>
+                                Showing 1-8 of 10 Results
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-8">
+                       <div class="filter-product-group">
+                            <div class="sort-product-item">
+                                <div>
+                                    <label for="">Show :</label>
+                                </div>
+                                
+                                <div class="sort-item">
+                                    <select class="form-select" aria-label="">
+                                        <option selected>5</option>
+                                        <option value="1">10</option>
+                                        <option value="2">15</option>
+                                        <option value="3">20</option>
+                                      </select>
+                                </div>
+                                <div class="sort-item">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Low to High</option>
+                                        <option value="2">High to Low</option>
+                                      </select>
+                                </div>
+                                <div class="sort-item">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Popular</option>
+                                        <option value="1">Toyota Camry SE 350</option>
+                                        <option value="2">Audi A3 2019 new</option>
+                                       
+                                      </select>
+                                </div>
+                            </div>
+                            <div class="listview">
+                                <ul>
+                                    <li>
+                                        <a class="active" href="">
+                                            <i class="fa-solid fa-border-all"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fa-solid fa-list"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                       </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="t-listings">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-lg-3">
+                        <form class="side-form" action="./a.html">
+                                <div class="search-product">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1" class="form-label">What Are You Looking For</label>
+                                        <div>
+                                            <input type="search" class="form-control search-input" id="search-input" >
+                                            <span class="search-img">
+                                                <img src="./img/icons/search.svg" alt="">
+                                            </span>
+                                        </div>
+                                      
+                                    </div>
+                               
+                                </div>
+                                <div class="sort-product">
+                                    <a  class="btn sort-category-btn collapsed" id="carCategory" data-bs-toggle="collapse" href="#sortCategory" role="button" aria-expanded="true" aria-controls="collapseExample">
+                                            Car Categogy
+                                    </a>
+                                    <div class="collapse show " id="sortCategory">
+                                        <div class="card card-body checkbox-category-group">
+                                            <div class="form-check">
+                                                <div class="form-group car-category">
+                                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sort-product">
+                                    <a class="btn sort-category-btn collapsed" data-bs-toggle="collapse" href="#sortcartype" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        Car Type
+                                    </a>
+                                <div class="collapse" id="sortcartype">
+                                    <div class="card card-body checkbox-category-group">
+                                        <div class="form-check">
+                                            <div class="form-group car-type">
+                                             
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sort-product">
+                                    <a class="btn sort-category-btn collapsed" data-bs-toggle="collapse" href="#sortcapacity" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        Capacity
+                                    </a>
+                                <div class="collapse" id="sortcapacity">
+                                    <div class="card card-body checkbox-category-group">
+                                        <div class="form-check">
+                                            <div class="form-group car-capacity">
+                                               
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sort-product">
+                                <a class="btn sort-category-btn collapsed" data-bs-toggle="collapse" href="#sortprice" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Price
+                                </a>
+                            <div class="collapse" id="sortprice">
+                                <div class="card card-body checkbox-category-group">
+                                    <div class="form-group">
+                                        <input type="range" value="35" min="0" class="price_range" id="priceRange">
+                                         <span class="output_value"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="sort-product">
+                                <a class="btn sort-category-btn collapsed" data-bs-toggle="collapse" href="#sortRangting" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Rangting
+                                </a>
+                            <div class="collapse" id="sortRangting">
+                                <div class="card card-body checkbox-category-group">
+                                    <div class="form-check">
+                                        <div class="form-group car-rangting">
+                                            <label class="form-check-label" for="1">
+                                                <input class="form-check-input" type="checkbox" value="" id="1">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </label><br>
+                                            <label class="form-check-label" for="2">
+                                                <input class="form-check-input" type="checkbox" value="" id="2">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </label><br>
+                                            <label class="form-check-label" for="3">
+                                                <input class="form-check-input" type="checkbox" value="" id="3">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </label><br>
+                                            <label class="form-check-label" for="4">
+                                                <input class="form-check-input" type="checkbox" value="" id="4">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </label>
+                                            <label class="form-check-label" for="4">
+                                                <input class="form-check-input" type="checkbox" value="" id="4">
+                                                <i class="fa-solid fa-star"></i>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                             <button type="submit" id="btn-submit" class="btn btn-sort-product" >
+                                <i class="fa-solid fa-filter"></i>
+                                Filter Results</button>
+                        </form>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-lg-9">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="products">
+                                    
+                                </div>
+                            </div>
+                            <nav class="navigation">
+                                <ul class="pagination justify-content-center">
+                                  <li class="page-item"><a class="page-link" href="#">
+                                    <i class="fa-solid fa-arrow-left "></i>Previous</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">Next 
+                                    <i class="fa-solid fa-arrow-right "></i>
+                                  </a></li>
+                                </ul>
+                              </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+            
+    </footer>
+        <script type="module" src="./index.js">
+         
+            // const elememtHeader = document.querySelector(".header");
+            // elememtHeader.innerHTML = renderHeader();
+        </script>
+    <script>
+        // var a = document.querySelector(".form-select")
+        // console.log(a.options[2].text)
+    </script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./carDetails.css">
+    <link rel="stylesheet" href="./reponsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha3/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha3/js/bootstrap.min.js"></script>
+    <script src="./fontawesome-free-6.4.0-web/js/fontawesome.min.js"></script>
+    <title>Listings</title>
+</head>
+
+<body>
+    <div class="main">
+        <header class="header">
+        </header>
+        <div class="listing-details">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-8">
+                        <div class="slideshow" id="1">
+                           
+                        </div>
+                        
+                    </div>
+   
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="form-c">
+                            <form id="form-1">
+                          
+                                <div class="header-title">
+                                    <p>Check Availability</p>
+                                </div>
+                                <div class="mb-2">
+                                    <label class="form-label">Pickup Location</label>
+                                    <div class="form-group">
+                                        <input type="text" id="pickup" name="pickup_location" class="form-control"
+                                            placeholder="45, 4th Avanue  Mark Street USA">
+                                        <span class="form-message"></span>
+                                    </div>
+                                </div>
+                                <div class="mb-2">
+                                    <label class="form-label">Dropoff Location</label>
+                                    <div class="form-group">
+                                        <input type="text" id="dropoff" name="dropoff_location" class="form-control"
+                                            placeholder="78, 10th street Laplace USA">
+                                        <span class="form-message"></span>
+                                    </div>
+                                </div>
+                                <div class="mb-2">
+                                    <label class="form-label">Pickup Date</label>
+                                    <div class="form-group">
+                                        <div class="form-group-input">
+                                            <input type="date" id="pickup_date" name="pickup_date" class="form-control"
+                                                placeholder="16-09-2023">
+                                            <input type="time" id="pickup_time" name="pickup_time" class="form-control"
+                                                placeholder="10:00:AM">
+                                        </div>
+
+                                        <span class="form-message"></span>
+                                    </div>
+                                </div>
+                                <div class="mb-2">
+                                    <label class="form-label">Return Date</label>
+                                    <div class="form-group">
+                                        <div class="form-group-input">
+                                            <input type="date" id="dropoff_date" name="dropoff_date"
+                                                class="form-control" placeholder="21-10-2023">
+                                            <input type="time" id="dropoff_time" name="dropoff_time"
+                                                class="form-control" placeholder="10:00:AM">
+                                        </div>
+                                        <span class="form-message"></span>
+                                    </div>
+                                </div>
+                                
+                                <button type="" class=" btn-submit" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop"> Check Availability
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Button trigger modal -->
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-check">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title " id="staticBackdropLabel">Availability Details</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="available-for-ride">
+                                    <div class="col-12">
+                                        <p>
+                                            <i class="fa-solid fa-check"></i>
+                                            Chevrolet Camaro is available for a ride
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="booking-info ">
+
+                                </div>
+                                <div class="deposit">
+                                    <div class="col-12 deposit-option">
+                                        <h5>Deposit Option</h5>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1" checked>
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                Pay Deposit
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault2">
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                                Full Amount
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6"></div>
+                                <div class="col-6 service-tax">
+                                    <div class="details-price">
+                                     
+                                    </div>
+                                    <div class="total-price">
+                                   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="./c.html" class="btn-details ">
+                                Go to Details
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+    <footer class="footer">
+            
+    </footer>
+  
+    <script type="module" src="./detailsProduct.js"></script>
+    <script type="module">
+        import{renderHeader,renderFooter}  from "./renderProducts.js";
+        const elememtHeader = document.querySelector(".header");
+ elememtHeader.innerHTML = renderHeader();
+ const elementFooter = document.querySelector(".footer");
+ elementFooter.innerHTML = renderFooter();
+    </script>
+    
+
+</body>
+
+</html>
